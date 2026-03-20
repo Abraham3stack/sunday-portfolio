@@ -2,12 +2,12 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { User, Ruler, MapPin, Flag, Footprints, Building2 } from "lucide-react";
 
 const profileData = [
-  { icon: User, label: "Age", value: "23" },
-  { icon: Ruler, label: "Height", value: "1.76m" },
-  { icon: MapPin, label: "Position", value: "Left-Back / Wing-Back" },
-  { icon: Footprints, label: "Preferred Foot", value: "Left" },
+  { icon: User, label: "Age", value: "25" },
+  { icon: Ruler, label: "Height", value: "1.86m" },
+  { icon: MapPin, label: "Position", value: "Center Back" },
+  { icon: Footprints, label: "Preferred Foot", value: "right" },
   { icon: Flag, label: "Nationality", value: "Nigerian" },
-  { icon: Building2, label: "Current Club", value: "None" },
+  { icon: Building2, label: "Current Club", value: "Östersund FK" },
 ];
 
 const ProfileSection = () => {
